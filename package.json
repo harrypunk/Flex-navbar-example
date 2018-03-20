@@ -1,0 +1,11 @@
+{
+  "name": "learnhtml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "harrypunk <keenkinkid@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}
