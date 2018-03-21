@@ -4,9 +4,9 @@ const browserSync = require('browser-sync').create()
 gulp.task('default', function () {
     browserSync.init({
         server: {
-            baseDir: __dirname
+            baseDir: __dirname + "/src"
         }
     })
 
-    gulp.watch('./*.html').on('change', browserSync.reload)
+    gulp.watch('./src/**').on('change', browserSync.reload)
 })
