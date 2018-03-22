@@ -12,23 +12,37 @@
 .navbar > li {
     flex: 1;
     margin: 0 1px;
-    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
     position: relative;
 }
 
-a {
+.navbar > li > .navtitle {
+    background-color: lightcoral;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li > a {
+    width: 100%;
+    box-sizing: border-box;
     color: white;
     text-decoration: none;
-    background: blanchedalmond;
+    padding: 10px;
+    height: auto;
+    display: inline-block;
+    background-color: lightblue;
 }
 
 ul {
     list-style: none;
 }
 
+.navbar > li > .navtitle:hover {
+    background:tomato;
+}
+
 .navbar > li > ul {
-    background-color: cadetblue;
+    background-color: sienna;
     display: none;
     position: absolute;
     left: 0;
@@ -37,4 +51,8 @@ ul {
 
 .navbar > li:hover > ul {
     display: block;
+}
+
+.navbar > li > ul > li > a:hover {
+    background-color: springgreen;
 }
