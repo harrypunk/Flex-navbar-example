@@ -31,6 +31,8 @@ ul {
     background-color: cadetblue;
     display: none;
     position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .navbar > li:hover > ul {
